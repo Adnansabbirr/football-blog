@@ -47,13 +47,13 @@ padding-left: 102px;
 
 
 }
-.header:hover .header-banner img{
-  animation: moving 5s ease-in-out 0s alternate;
+header:hover .header-banner img{
+ transform: scale(0.8);
  
 }
 .header-banner img{
   width: 100%;
-  transition: 10s ease-in-out;
+  transition: 2s ease-in-out;
 
 }
 /* Player style */
@@ -127,21 +127,3 @@ footer .social-media a{
 
 
 
-
-/* Animation */
-
-@keyframes moving {
-  0%{
-    top:25%;
-  }
-  25%{
-    top: 50%;
-  }
-  75%{
-    top: 0%;
-  }
-  100%{
-    top: 25%;
-  }
-
-}
