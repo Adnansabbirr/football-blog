@@ -56,7 +56,9 @@ header:hover .header-banner img{
   transition: 2s ease-in-out;
 
 }
-/* Player style */
+/* ===================
+      Player style
+ =====================*/
 .player-section{
   margin: 85px 195px;
 }
@@ -87,7 +89,9 @@ height: 154px;
 font-size: 16px;
 color: #6C6C6C;
 }
-/* Hightlights matches style */
+/*========================
+Hightlights matches style
+========================== */
 
 .highlghts-matches{
   display: flex;
