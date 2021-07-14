@@ -1,0 +1,155 @@
+/*---------------- 
+    Font & Utilities
+------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*----------- 
+  Header style
+ -------------*/
+header{
+  background-color: #2D25A0;
+  width: 100%;
+  padding-bottom: 100px;
+  
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.header-text h1{
+  width: 485px;
+  height: 230px;
+  font-size: 64px;
+  color:#FFFFFF;
+  
+}
+.header-text p{
+  background-color: #E02C6D;
+  width: 168px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  padding:10px;
+}
+.header-banner {
+width: 555px;
+height: 438px;
+padding-left: 102px;
+
+
+}
+.header:hover .header-banner{
+  animation: moving 5s ease-in-out 0s alternate;
+ 
+}
+.header-banner img{
+  width: 100%;
+  transition: 10s ease-in-out;
+
+}
+/* Player style */
+.player-section{
+  margin: 85px 195px;
+}
+.players{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 30px;
+}
+.player{
+  padding: 15px;
+  box-shadow:0px 0px 40px rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 426px;
+ 
+}
+.player-img img{
+  width: 100%;
+}
+.player-info{
+  width: 300px;
+height: 154px;
+}
+.player-info h3{
+  font-size: 28px;
+}
+.player-info p{
+
+font-size: 16px;
+color: #6C6C6C;
+}
+/* Hightlights matches style */
+
+.highlghts-matches{
+display: flex;
+justify-content: center;
+flex-grow: 1;
+
+width: 100%;
+}
+.highlights{
+  width: 40%;
+  text-align: center;
+  margin-right: 10px;
+}
+.highlights h2{
+  margin:0, auto;
+}
+
+/* Footer design */
+
+
+footer{
+  max-width: 485px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 20px;
+  text-align: center;
+  align-items: center;
+  margin-top: 158px;
+  margin-bottom: 65;
+  margin-left: 400px;
+}
+.footer-images img{
+  width: 100%;
+}
+footer .social-media{
+  display: flex;
+  justify-content: center;
+}
+footer .social-media a{
+  text-decoration: none;
+  color: gray;
+  font-size: 32px;
+  padding: 0 5px;
+}
+
+
+
+
+/* Animation */
+
+@keyframes moving {
+  0%{
+    top:25%;
+  }
+  25%{
+    top: 50%;
+  }
+  75%{
+    top: 0%;
+  }
+  100%{
+    top: 25%;
+  }
+
+}
