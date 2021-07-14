@@ -103,6 +103,10 @@ Hightlights matches style
 .highlghts-tag{
   text-align: center;
 }
+span{
+  color:rgb(11, 156, 156);
+  font-size: 150%;
+}
 
 footer{
   max-width: 485px;
